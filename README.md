@@ -30,7 +30,7 @@
 
 ```sh
 git clone https://github.com/NillyTheL0L/jewelrystore/
-cd rubystore
+cd jewelrystore
 ruby jewelrystore.rb
 ```
 

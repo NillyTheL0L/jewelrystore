@@ -78,7 +78,7 @@ if res == 'etcher'
   puts 'I will install Balena-Etcher x64 AppImage, Correct? (Press Enter)'.red
   etcherd = gets.chomp
   puts 'Installing Emacs AppImage'.red
-  etcher = system( "cd ~/ && wget "https://github.com/balena-io/etcher/releases/download/v1.7.8/balenaEtcher-1.7.8-x64.AppImage" )
+  etcher = system( "cd ~/ && wget https://github.com/balena-io/etcher/releases/download/v1.7.8/balenaEtcher-1.7.8-x64.AppImage" )
   puts 'App installed with success in your home'.red
 end
 

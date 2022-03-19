@@ -82,3 +82,10 @@ if res == 'etcher'
   puts 'App installed with success in your home'.red
 end
 
+if res == 'brave'
+	puts 'I will install Brave x86_64 AppImage, Correct? (Press Enter)'.red
+	brave = gets.chomp
+	puts 'Installing Brave AppImage'.red
+	brave = system( "cd ~/ && wget https://apprepo.de/uploads/package/version/2022/02/05/055813/Brave.AppImage" )
+	puts 'app installed with sucess in your home'.red
+end

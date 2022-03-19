@@ -14,7 +14,7 @@
   </a>
 </p>
 
-> A AppImage cli store made in ruby
+> A CLI AppImage store made in the Ruby programming langauge.
 
 ### 🏠 [Homepage](https://github.com/nillythel0l/rubystore)
 
@@ -26,6 +26,8 @@
 ## Run
 
 ```sh
+git clone https://github.com/NillyTheL0L/rubystore/
+cd rubystore
 ruby rubystore.rb
 ```
 
@@ -42,11 +44,8 @@ ruby rubystore.rb
 
 ## 🤝 Contributing
 
-If you want to participe in this project call me on discord: @NillyTheLOL#5363
+If you want to participate in this project,  please contact the author on Discord: @NillyTheLOL#5363
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
 
 ## 📝 License
 

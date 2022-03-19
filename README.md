@@ -1,5 +1,5 @@
 
-<h1 align="center">Welcome to jewelry store 👋</h1>
+<h1 align="center">A CLI AppImage Installer</h1>
 <p>
   <img src="https://user-images.githubusercontent.com/97253814/159140902-99bf2d2a-d55b-4e24-a1a0-53ebf87656c5.png"/>
 
@@ -17,7 +17,7 @@
   </a>
 </p>
 
-> A CLI AppImage store made in the Ruby programming langauge.
+> Jewlery Store is a CLI AppImage store made in the Ruby programming langauge.
 
 ### 🏠 [Homepage](https://github.com/nillythel0l/jewelrystore)
 

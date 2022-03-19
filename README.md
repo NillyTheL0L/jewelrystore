@@ -1,27 +1,49 @@
-# RubyStore
-<img src='https://user-images.githubusercontent.com/97253814/159125101-1b8c79f4-18cc-43f2-8693-3c908e927528.png' width='150' height='150' />
 
-## Info
+<h1 align="center">Welcome to RubyStore 👋</h1>
+<p>
+  <img src='https://user-images.githubusercontent.com/97253814/159125101-1b8c79f4-18cc-43f2-8693-3c908e927528.png' width='150' height='150' />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  
+  <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/NillyTheL0L/rubystore/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/NillyTheL0L/RubyStore" />
+  </a>
+</p>
 
-This is a cli AppImage Store made with ruby by me
-im updating everyday
-you can view all versions on releases
+> A AppImage cli store made in ruby
 
-## Install
+### 🏠 [Homepage](https://github.com/nillythel0l/rubystore)
 
-### 1. Download requeriments
+## Prerequisites
 
-```http
-$ sudo apt-get install ruby
+- Ruby
+- Colorize Gem (install with gem install colorize)
+
+## Run
+
+```sh
+ruby rubystore.rb
 ```
-#### 2. Install required gems
 
-```http
-$ sudo gem install colorize
-```
+## Author
 
-#### 3. Execute
+👤 **NillyTheL0L**
 
-```http
-$ ruby rubystore.rb
-```
+* GitHub: [@NillyTheL0L](https://github.com/NillyTheL0L)
+
+## 🤝 Contributing
+
+If you want to participe in this project call me on discord: @NillyTheLOL#5363
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2022 [NillyTheL0L](https://github.com/NillyTheL0L).<br />
+This project is [MIT](https://github.com/NillyTheL0L/rubystore/blob/main/LICENSE) licensed.
+
+***

@@ -8,6 +8,9 @@ if res == 'list'
     puts 'audacity'.yellow
     puts 'librewolf'.yellow
     puts 'ferdi'.yellow
+    puts 'vscode'.yellow
+    puts 'emacs'.yellow
+    
 end
 
 if res == 'bye'
@@ -51,5 +54,21 @@ if res == 'ferdi'
 	ferdid = gets.chomp
 	puts 'installing Ferdi AppImage'.red
 	ferdi = system( "cd ~/ && wget https://github.com/getferdi/ferdi/releases/download/v5.8.0/Ferdi-5.8.0.AppImage" )
+	puts 'app installed with sucess in your home'.red
+end
+
+if res == 'vscode'
+	puts 'i will install Code-Oss x86_64 AppImage, Correct? (Press Enter)'.red
+	coded = gets.chomp
+	puts 'installing VsCode AppImage'.red
+	code = system( "cd ~/ && wget https://github.com/zilti/code-oss.AppImage/releases/download/continuous/Code_OSS-x86_64.AppImage" )
+	puts 'app installed with sucess in your home'.red
+end
+
+if res == 'emacs'
+	puts 'i will install emacs AppImage, Correct? (Press Enter)'.red
+	emacsd = gets.chomp
+	puts 'installing Emacs AppImage'.red
+	emacs = system( "cd ~/ && wget https://github.com/probonopd/Emacs.AppImage/releases/download/continuous/Emacs-27.2.glibc2.16-x86_64.AppImage" )
 	puts 'app installed with sucess in your home'.red
 end

@@ -29,11 +29,16 @@
 ruby rubystore.rb
 ```
 
-## Author
+## Authors
 
 👤 **NillyTheL0L**
 
 * GitHub: [@NillyTheL0L](https://github.com/NillyTheL0L)
+
+
+👤 **numbertumbers**
+
+* GitHub: [@numbertumbers](https://github.com/numbertumbers)
 
 ## 🤝 Contributing
 

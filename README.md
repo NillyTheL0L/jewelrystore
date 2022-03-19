@@ -1,7 +1,10 @@
 
-<h1 align="center">Welcome to RubyStore 👋</h1>
+<h1 align="center">Welcome to jewelry store 👋</h1>
 <p>
-  <img src='https://user-images.githubusercontent.com/97253814/159125101-1b8c79f4-18cc-43f2-8693-3c908e927528.png' width='150' height='150' />
+  <img src="https://user-images.githubusercontent.com/97253814/159140902-99bf2d2a-d55b-4e24-a1a0-53ebf87656c5.png"/>
+
+  
+  
   <img alt="Version" src="https://img.shields.io/badge/version-1.4.4-blue.svg?cacheSeconds=2592000" />
   
   <img src="https://img.shields.io/badge/ruby-3.1.1-red.svg" />
@@ -9,14 +12,14 @@
   <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/NillyTheL0L/rubystore/blob/main/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/NillyTheL0L/RubyStore" />
+  <a href="https://github.com/NillyTheL0L/jewelrystore/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/NillyTheL0L/jewelrystore" />
   </a>
 </p>
 
 > A CLI AppImage store made in the Ruby programming langauge.
 
-### 🏠 [Homepage](https://github.com/nillythel0l/rubystore)
+### 🏠 [Homepage](https://github.com/nillythel0l/jewelrystore)
 
 ## Prerequisites
 
@@ -26,9 +29,9 @@
 ## Run
 
 ```sh
-git clone https://github.com/NillyTheL0L/rubystore/
+git clone https://github.com/NillyTheL0L/jewelrystore/
 cd rubystore
-ruby rubystore.rb
+ruby jewelrystore.rb
 ```
 
 ## Authors
@@ -50,6 +53,6 @@ If you want to participate in this project,  please contact the author on Discor
 ## 📝 License
 
 Copyright © 2022 [NillyTheL0L](https://github.com/NillyTheL0L).<br />
-This project is [MIT](https://github.com/NillyTheL0L/rubystore/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/NillyTheL0L/jewelrystore/blob/main/LICENSE) licensed.
 
 ***

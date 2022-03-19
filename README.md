@@ -5,6 +5,7 @@
 
 This is a cli AppImage Store made with ruby by me
 im updating everyday
+you can view all versions on releases
 
 ## Install
 

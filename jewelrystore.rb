@@ -1,5 +1,5 @@
 require 'colorize'
-puts 'welcome to ruby store to list all apps type list or type bye to exit'.red
+puts 'welcome to jewelry store to list all apps type list or type bye to exit'.red
 res = gets.chomp
 if res == 'list'
     puts 'all apps available are:'.red

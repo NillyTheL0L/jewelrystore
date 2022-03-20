@@ -11,6 +11,7 @@ if res == 'list'
     puts 'vscode'.yellow
     puts 'emacs'.yellow
     puts 'etcher'.yellow
+    puts 'brave'.yellow
     
 end
 

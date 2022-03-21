@@ -12,6 +12,7 @@ if res == 'list'
     puts 'emacs'.yellow
     puts 'etcher'.yellow
     puts 'brave'.yellow
+    puts 'stepmania'.yellow
     
 end
 
@@ -88,5 +89,13 @@ if res == 'brave'
 	brave = gets.chomp
 	puts 'Installing Brave AppImage'.red
 	brave = system( "cd ~/ && wget https://apprepo.de/uploads/package/version/2022/02/05/055813/Brave.AppImage" )
+	puts 'app installed with sucess in your home'.red
+end
+
+if res == 'stepmania'
+	puts 'I will install StepMania 5.1 beta x86_64 AppImage, Correct? (Press Enter)'.red
+	brave = gets.chomp
+	puts 'Installing StepMania AppImage'.red
+	brave = system( "cd ~/ && https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYzMTUwODUxNiwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiI0MmE1M2M2NjdiNDQ2NDIwODVlMDA5OGI5NWIxNDQ4MTY3N2ZhNmI1MjAyMDcwYTgxZjkxYjI2MDEwMjAzNTQ3MGVhNzFhM2VmZDNmZjJmNjkzZmQ5ODA2YzAxYjNjNmYxNWU2YzVmMGY4MWIyY2YwNDMwZmQ2ZTcwNmFmZjcyZiIsInQiOjE2NDc4ODE3NTIsInN0ZnAiOiJjYmRlYjg2YmM5YWE5MDFjM2ZiNzU1MmIzYWNmZDljNSIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.5Pqzqpy4A6_2FjvxKrjN2fYy9CT68TaZKKmu_pXXlAc/StepMania-5.1-f1ebe8d-x86_64.AppImage " )
 	puts 'app installed with sucess in your home'.red
 end

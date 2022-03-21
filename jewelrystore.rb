@@ -15,6 +15,7 @@ if res == 'list'
     puts 'stepmania'.colorize(:yellow)
     puts 'zoom'.colorize(:blue)
     puts 'schildichat'.colorize(:green)
+    puts 'cpu-x'.colorize(:blue)
     
 end
 
@@ -117,4 +118,12 @@ if res == 'schildichat'
 	puts 'Installing SchildiChat AppImage'.colorize(:red)
 	schat = system( "cd ~/ && wget https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYwODIwNzkzMCwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiIzMDdiM2MyNzdjNmEwNmJjNTUzOWIyZTRmOWJiZmJkNWFjZjM5NjhjYzc3MGI4YTU2OTZkNjcxOTgyNWVmYjg2YTc5M2NhMTQ5MzRmY2ZmODg0NTIwODdhMjUzNDkzOGJhZDE2NDY5MWEwZjQ4OTQzYzRjZDdhN2Y3ZTMzYmY3MCIsInQiOjE2NDc4ODI3NDcsInN0ZnAiOiJjYmRlYjg2YmM5YWE5MDFjM2ZiNzU1MmIzYWNmZDljNSIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.HM7ynsB4H-AV0CHqvHin3rzitDgTZTU1dksEiRrKvBQ/SchildiChat-1.7.15.AppImage " )
 	puts 'app installed with sucess in your home'.colorize(:red)
+end
+
+if res == 'cpu-x'
+	puts 'I will install CPU-X x86_64 AppImage, Correct? (Press Enter)'.colorize(:red)
+	cpuxd = gets.chomp
+	puts 'Installing CPU-X AppImage'.colorize(:red)
+	cpux = syystem( "cd ~/ && wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/24292801/6b1fe73e-86e1-429c-88ea-ee41bd019276?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220321%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220321T162401Z&X-Amz-Expires=300&X-Amz-Signature=fa9da0fcd59276a5a1c2a6f6b0d447d7af5f7b7731d9c16b5d4e1e39311b54da&X-Amz-SignedHeaders=host&actor_id=97253814&key_id=0&repo_id=24292801&response-content-disposition=attachment%3B%20filename%3DCPU-X-x86_64.AppImage&response-content-type=application%2Foctet-stream " )
+	puts 'app  installed with sucess in your home'.colorize(:red)
 end

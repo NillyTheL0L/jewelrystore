@@ -98,15 +98,15 @@ if res == 'stepmania'
 	puts 'I will install StepMania 5.1 beta x86_64 AppImage, Correct? (Press Enter)'.colorize(:red)
 	brave = gets.chomp
 	puts 'Installing StepMania AppImage'.colorize(:red)
-	brave = system( "cd ~/ && https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYzMTUwODUxNiwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiI0MmE1M2M2NjdiNDQ2NDIwODVlMDA5OGI5NWIxNDQ4MTY3N2ZhNmI1MjAyMDcwYTgxZjkxYjI2MDEwMjAzNTQ3MGVhNzFhM2VmZDNmZjJmNjkzZmQ5ODA2YzAxYjNjNmYxNWU2YzVmMGY4MWIyY2YwNDMwZmQ2ZTcwNmFmZjcyZiIsInQiOjE2NDc4ODE3NTIsInN0ZnAiOiJjYmRlYjg2YmM5YWE5MDFjM2ZiNzU1MmIzYWNmZDljNSIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.5Pqzqpy4A6_2FjvxKrjN2fYy9CT68TaZKKmu_pXXlAc/StepMania-5.1-f1ebe8d-x86_64.AppImage " )
+	brave = system( "cd ~/ && wget https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYzMTUwODUxNiwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiI0MmE1M2M2NjdiNDQ2NDIwODVlMDA5OGI5NWIxNDQ4MTY3N2ZhNmI1MjAyMDcwYTgxZjkxYjI2MDEwMjAzNTQ3MGVhNzFhM2VmZDNmZjJmNjkzZmQ5ODA2YzAxYjNjNmYxNWU2YzVmMGY4MWIyY2YwNDMwZmQ2ZTcwNmFmZjcyZiIsInQiOjE2NDc4ODE3NTIsInN0ZnAiOiJjYmRlYjg2YmM5YWE5MDFjM2ZiNzU1MmIzYWNmZDljNSIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.5Pqzqpy4A6_2FjvxKrjN2fYy9CT68TaZKKmu_pXXlAc/StepMania-5.1-f1ebe8d-x86_64.AppImage " )
 	puts 'app installed with sucess in your home'.colorize(:red)
 end
 
-if res == 'stepmania'
+if res == 'zoom'
 	puts 'I will install Zoom x86_64 AppImage, Correct? (Press Enter)'.colorize(:red)
 	brave = gets.chomp
 	puts 'Installing Zoom AppImage'.colorize(:red)
-	brave = system( "cd ~/ && 
+	brave = system( "cd ~/ && wget 
 https://dl1.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYzMjY1MjY0NiwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiJjY2IzOGY2MDUxZTA1ZmZlOWM2OTkxZWNiYmNjODljZDNhZDE0YWZjODY2NmY2YTM4MjkyMzZlNzI1MTc3ZGU1OWRiMGM4NzMyNDRjMDQxMDAwMDBmMDNhZjRjOGUwNzk3YTQzYTc2MDY5NzJhMmU3ZjAwNmIyYzk1ODg0N2MyNyIsInQiOjE2NDc4ODE4NDMsInN0ZnAiOiJjYmRlYjg2YmM5YWE5MDFjM2ZiNzU1MmIzYWNmZDljNSIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.sf2N3V4wAvTwg_oGR9w-k3LUZcr5R3-1R0rbXj0DjnI/Zoom-5.7.31792.0820.glibc2.17-x86_64.AppImage " )
 	puts 'app installed with sucess in your home'.colorize(:red)
 end
@@ -115,6 +115,6 @@ if res == 'schildichat'
 	puts 'I will install SchildiChat x86_64 AppImage, Correct? (Press Enter)'.colorize(:red)
 	brave = gets.chomp
 	puts 'Installing SchildiChat AppImage'.colorize(:red)
-	brave = system( "cd ~/ && https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYwODIwNzkzMCwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiIzMDdiM2MyNzdjNmEwNmJjNTUzOWIyZTRmOWJiZmJkNWFjZjM5NjhjYzc3MGI4YTU2OTZkNjcxOTgyNWVmYjg2YTc5M2NhMTQ5MzRmY2ZmODg0NTIwODdhMjUzNDkzOGJhZDE2NDY5MWEwZjQ4OTQzYzRjZDdhN2Y3ZTMzYmY3MCIsInQiOjE2NDc4ODI3NDcsInN0ZnAiOiJjYmRlYjg2YmM5YWE5MDFjM2ZiNzU1MmIzYWNmZDljNSIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.HM7ynsB4H-AV0CHqvHin3rzitDgTZTU1dksEiRrKvBQ/SchildiChat-1.7.15.AppImage " )
+	brave = system( "cd ~/ && wget https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYwODIwNzkzMCwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiIzMDdiM2MyNzdjNmEwNmJjNTUzOWIyZTRmOWJiZmJkNWFjZjM5NjhjYzc3MGI4YTU2OTZkNjcxOTgyNWVmYjg2YTc5M2NhMTQ5MzRmY2ZmODg0NTIwODdhMjUzNDkzOGJhZDE2NDY5MWEwZjQ4OTQzYzRjZDdhN2Y3ZTMzYmY3MCIsInQiOjE2NDc4ODI3NDcsInN0ZnAiOiJjYmRlYjg2YmM5YWE5MDFjM2ZiNzU1MmIzYWNmZDljNSIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.HM7ynsB4H-AV0CHqvHin3rzitDgTZTU1dksEiRrKvBQ/SchildiChat-1.7.15.AppImage " )
 	puts 'app installed with sucess in your home'.colorize(:red)
 end

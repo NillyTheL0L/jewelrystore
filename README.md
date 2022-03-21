@@ -7,7 +7,7 @@
   
   <img src="https://img.shields.io/badge/ruby-3.1.1-red.svg" />
   
-  <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
+  <a href="#" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/NillyTheL0L/jewelrystore/blob/main/LICENSE" target="_blank">

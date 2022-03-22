@@ -26,6 +26,18 @@ cd jewelrystore
 gem install colorize
 ruby jewelrystore.rb
 ```
+## 💎 Gem
+#### If you want to preffer download with gem
+```sh
+gem install jewelrystore
+nano jewstore.rb
+
+Now add this line to jewstore.rb
+Jewelrystore.run
+
+ruby jewstore.rb
+```
+
 
 ## 🌐 WebSite
 #### [click me](https://jewelrystore.emperror.repl.co/)

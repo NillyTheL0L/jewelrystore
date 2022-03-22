@@ -11,12 +11,16 @@ if res == 'list'
     puts 'vscode'.colorize(:blue)
     puts 'emacs'.colorize(:purple)
     puts 'etcher'.colorize(:green)
-    puts 'brave'.colorize(:orange)
+    puts 'brave'.colorize(:yellow)
     puts 'stepmania'.colorize(:yellow)
     puts 'zoom'.colorize(:blue)
     puts 'schildichat'.colorize(:green)
     puts 'cpu-x'.colorize(:blue)
-    
+    puts 'atom'.colorize(:green)
+    puts 'blender'.colorize(:yellow)
+    puts 'krita'.colorize(:pink)
+    puts 'gimp'.colorize(:white)
+
 end
 
 if res == 'bye'
@@ -124,5 +128,37 @@ if res == 'cpu-x'
 	cpuxd = gets.chomp
 	puts 'Installing CPU-X AppImage'.colorize(:red)
 	cpux = system( "cd ~/ && wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/24292801/6b1fe73e-86e1-429c-88ea-ee41bd019276?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220321%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220321T162401Z&X-Amz-Expires=300&X-Amz-Signature=fa9da0fcd59276a5a1c2a6f6b0d447d7af5f7b7731d9c16b5d4e1e39311b54da&X-Amz-SignedHeaders=host&actor_id=97253814&key_id=0&repo_id=24292801&response-content-disposition=attachment%3B%20filename%3DCPU-X-x86_64.AppImage&response-content-type=application%2Foctet-stream " )
+	puts 'app  installed with sucess in your home'.colorize(:red)
+end
+
+if res == 'atom'
+	puts 'I will install Atom IDE x86_64 AppImage, Correct? (Press Enter)'.colorize(:red)
+	atomd = gets.chomp
+	puts 'Installing Atom AppImage'.colorize(:red)
+	atom = system( "cd ~/ && wget https://rsync.opensuse.org/repositories/home:/zilti:/appimages/AppImage/Atom-0-Build7.6.glibc2.17-x86_64.AppImage" )
+	puts 'app  installed with sucess in your home'.colorize(:red)
+end
+
+if res == 'blender'
+	puts 'I will install Blender x86_64 AppImage, Correct? (Press Enter)'.colorize(:red)
+	blenderd = gets.chomp
+	puts 'Installing Blender AppImage'.colorize(:red)
+	blender = system( "cd ~/ && wget https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYwMjAxMzAyOCwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiI1NjMyNTYzMzI3NmUwOWUxYmI0ZDNjNzc4YTM1ODk2ZGU3ZDQ2MGY5OTJlNDgzNWU3YjhkY2IyYTRlNTcwMmExYTIxNGJiYTI4NjBlMDY3N2Y0MDRiYTRkMWU4ZDAwNWMwODM3MGE3YzcyODk5MDlhNjk0ZGYwOTU0OTIxNzViOSIsInQiOjE2NDc5OTIyMjUsInN0ZnAiOiJhNzhmZmFhZTdkNDk3MDk2Y2ZhNjJmOTBmMmJiNGFmNyIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.NadXu5Q82JaQycdTvoSvjATRLd9Q2iQUiTXTDeYs5c8/Blender-v2.90.0-x86_64.AppImage" )
+	puts 'app  installed with sucess in your home'.colorize(:red)
+end
+
+if res == 'krita'
+	puts 'I will install Krita x86_64 AppImage, Correct? (Press Enter)'.colorize(:red)
+	kritad = gets.chomp
+	puts 'Installing Krita AppImage'.colorize(:red)
+	krita = system( "cd ~/ && wget https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYwMTkzMzc2OSwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiJlZGE0NWMyODA0NWRlNDIxNDgzNzExZDc0ZDJlZGZjNzY4M2Y0YTljYmVjOGE2NzU5ZWZkMGMxYmQ3ZDYzNjkwOTgwYTJiOWY3NTllNTkwMWVmYTA4NGY3MWQ0OGQyZmQ0MzY1ZjRhOWM3YzJjNzlmNTk4OTg2MjMyNjAxNTQyNSIsInQiOjE2NDc5OTI0MjIsInN0ZnAiOiJhNzhmZmFhZTdkNDk3MDk2Y2ZhNjJmOTBmMmJiNGFmNyIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.lRP10rJ_cyvF38FJ34WacH78A0yLtUjM5b_C9phRVR4/krita-4.3.0-x86_64.appimage" )
+	puts 'app  installed with sucess in your home'.colorize(:red)
+end
+
+if res == 'gimp'
+	puts 'I will install Gimp x86_64 AppImage, Correct? (Press Enter)'.colorize(:red)
+	gimpd = gets.chomp
+	puts 'Installing Gimp AppImage'.colorize(:red)
+	gimo = system( "cd ~/ && wget https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYwMTkyNDUwNCwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiI4MGQ4OTZjNGEwOWJiZmJiYzNkZDRjZWRjZWUwNDFkN2RmMjIzODMzMWFiZTc4YTE2YTg2NWE4NzQxODc1OTcyNmQ3N2Y1ZGE3ZTdlMTM4ZGNiOGE5MTIyMmQ0YWJkZmUyNmRhYjk5M2M3MWI2ODE3OGYxZTYxODhhNjQ1YmYzYiIsInQiOjE2NDc5OTI2NjEsInN0ZnAiOiJhNzhmZmFhZTdkNDk3MDk2Y2ZhNjJmOTBmMmJiNGFmNyIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.CpkSnEc13pPiDg93ayIBOdJG87WSBLrJ8g10YqIcWME/GIMP_AppImage-git-2.10.21-20201001-withplugins-x86_64.AppImage" )
 	puts 'app  installed with sucess in your home'.colorize(:red)
 end

@@ -27,7 +27,7 @@ gem install colorize
 ruby jewelrystore.rb
 ```
 ## 💎 Gem
-#### If you want to preffer download with gem
+#### If you want to preffer download with gem (Now need to Download colorize)
 ```sh
 gem install jewelrystore
 nano jewstore.rb

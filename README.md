@@ -31,10 +31,14 @@ ruby jewelrystore.rb
 ```sh
 gem install jewelrystore
 nano jewstore.rb
-
-Now add this line to jewstore.rb
+```
+#### Now add this lines to jewstore.rb
+```sh
+require `jewelrystore`
 Jewelrystore.run
-
+```
+### And run with
+```sh
 ruby jewstore.rb
 ```
 

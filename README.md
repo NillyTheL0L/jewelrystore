@@ -32,16 +32,18 @@ ruby jewelrystore.rb
 gem install jewelrystore
 nano jewstore.rb
 ```
-#### Now add this lines to jewstore.rb
+#### Now you can run with 
+```sh
+jewelrystore
+```
+
+#### If it gives an error please type jewel and press TAB
+
+#### If you want add to an external file
 ```sh
 require `jewelrystore`
 Jewelrystore.run
 ```
-### And run with
-```sh
-ruby jewstore.rb
-```
-
 
 ## 🌐 WebSite
 #### [click me](https://jewelrystore.emperror.repl.co/)

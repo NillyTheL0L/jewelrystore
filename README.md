@@ -3,7 +3,7 @@
 
   
   
-  <img alt="Version" src="https://img.shields.io/badge/version-1.4.6-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.4.8-blue.svg?cacheSeconds=2592000" />
   
   <img src="https://img.shields.io/badge/ruby-3.1.1-red.svg" />
   

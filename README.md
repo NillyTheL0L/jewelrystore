@@ -4,7 +4,7 @@
   
   
   <img alt="Version" src="https://img.shields.io/badge/version-1.4.8-blue.svg?cacheSeconds=2592000" />
-  
+  <a href="https://badge.fury.io/rb/jewelrystore"><img src="https://badge.fury.io/rb/jewelrystore.svg" alt="Gem Version" height="20"></a>
   <img src="https://img.shields.io/badge/ruby-3.1.1-red.svg" />
   
   <a href="#" target="_blank">

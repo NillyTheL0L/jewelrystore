@@ -18,7 +18,8 @@
 
 Jewlery Store is a CLI AppImage store made in the Ruby programming langauge.
 
-## 📥 Installation
+# 📥 Installation
+## From Source
 #### Please note that this tool is in beta, it is not meant to be used in production!
 ```sh
 git clone https://github.com/NillyTheL0L/jewelrystore/
@@ -26,26 +27,14 @@ cd jewelrystore
 gem install colorize
 ruby jewelrystore.rb
 ```
-## 💎 Gem
-#### If you want to preffer download with gem (Now need to Download colorize)
+## Via ``gem``
 ```sh
 gem install jewelrystore
-nano jewstore.rb
-```
-#### Now you can run with 
-```sh
 jewelrystore
 ```
 
-#### If it gives an error please type jewel and press TAB
 
-#### If you want add to an external file
-```sh
-require `jewelrystore`
-Jewelrystore.run
-```
-
-## 🌐 WebSite
+## 🌐 Website
 #### [click me](https://jewelrystore.emperror.repl.co/)
 
 ## 👤 Authors

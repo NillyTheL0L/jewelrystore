@@ -35,7 +35,10 @@ jewelrystore
 
 
 ## 🌐 Website
-#### [click me](https://jewelrystore.emperror.repl.co/)
+#### [Website](https://jewelrystore.emperror.repl.co/)
+
+## 📖 Wiki:
+#### [Wiki](https://github.com/NillyTheL0L/jewelrystore/wiki)
 
 ## 👤 Authors
 

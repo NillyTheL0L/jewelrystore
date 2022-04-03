@@ -47,10 +47,6 @@ jewelrystore
 * GitHub: [@NillyTheL0L](https://github.com/NillyTheL0L)
 
 
-👤 **numbertumbers**
-
-* GitHub: [@numbertumbers](https://github.com/numbertumbers)
-
 ## 🤝 Contributing
 
 If you want to participate in this project,  please contact the author on Discord: @NillyTheLOL#5363

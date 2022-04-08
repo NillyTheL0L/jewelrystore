@@ -19,11 +19,6 @@
 Jewlery Store is a CLI AppImage store made in the Ruby programming langauge.
 
 # 📥 Installation
-## Arch Linux
-```sh
-wget https://github.com/NillyTheL0L/jewelrystore/raw/main/ruby-jewelrystore-1.5.4-1-any.pkg.tar.zst
-sudo pacman -U ruby-jewelrystore-1.5.4-1-any.pkg.tar.zst
-```
 ## From Source
 #### Please note that this tool is in beta, it is not meant to be used in production!
 ```sh

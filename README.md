@@ -21,15 +21,6 @@ ex: current jewstore is 1.5.4 but gem is 1.5.6*
 Jewlery Store is a CLI AppImage store made in the Ruby programming langauge.
 
 # 📥 Installation
-## From Source
-#### Please note that this tool is in beta, it is not meant to be used in production!
-```sh
-git clone https://github.com/NillyTheL0L/jewelrystore/
-cd jewelrystore
-gem install colorize
-gem install cli-ui
-ruby jewelrystore.rb
-```
 ## Via ``gem``
 ```sh
 gem install jewelrystore

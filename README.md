@@ -63,5 +63,6 @@ This project is [MIT](https://github.com/NillyTheL0L/jewelrystore/blob/main/LICE
 
 ## 📰 News
 ![Screenshot from 2022-04-08 12-00-22](https://user-images.githubusercontent.com/97253814/162481412-cede45dd-0b4f-4b38-956c-6df6841ee8ba.png)
+
 Thank you all for 1k!
 ***

@@ -15,8 +15,6 @@
   </a>
 </p>
 <h1 align="center">A CLI AppImage Installer</h1>
-*Note the gem has 2 version more but is normally
-ex: current jewstore is 1.5.4 but gem is 1.5.6*
 
 Jewlery Store is a CLI AppImage store made in the Ruby programming langauge.
 

@@ -25,6 +25,15 @@ gem install jewelrystore
 jewelrystore
 ```
 
+## Arch Linux
+```sh
+wget https://github.com/NillyTheL0L/jewelrystore/releases/download/jewelrystore157/jewelrystore157arch.zip
+unzip jewelrystore157arch.zip
+cd ruby-jewelrystore/
+sudo pacman -U ruby-cli-ui-1.5.1-1-any.pkg.tar.zst
+sudo pacman -U ruby-jewelrystore-1.5.7-1-any.pkg.tar.zst
+jewelrystore
+```
 
 ## 🌐 Website
 #### [Website](https://jewelrystore.emperror.repl.co/)
@@ -51,4 +60,8 @@ If you want to participate in this project,  please contact the author on Discor
 Copyright © 2022 [NillyTheL0L](https://github.com/NillyTheL0L).<br />
 This project is [MIT](https://github.com/NillyTheL0L/jewelrystore/blob/main/LICENSE) licensed.
 
+
+## 📰 News
+![Screenshot from 2022-04-08 12-00-22](https://user-images.githubusercontent.com/97253814/162481412-cede45dd-0b4f-4b38-956c-6df6841ee8ba.png)
+Thank you all for 1k!
 ***

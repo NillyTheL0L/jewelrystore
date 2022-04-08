@@ -25,6 +25,7 @@ Jewlery Store is a CLI AppImage store made in the Ruby programming langauge.
 git clone https://github.com/NillyTheL0L/jewelrystore/
 cd jewelrystore
 gem install colorize
+gem install cli-ui
 ruby jewelrystore.rb
 ```
 ## Via ``gem``

@@ -1,8 +1,5 @@
 require 'cli/ui'
 require 'colorize'
-require 'cli/ui'
-class Jewstore
-def self.go
 res = ''
 CLI::UI::Prompt.ask('JewelryStore v1.5.4') do |handler|
   handler.option('list')  { |selection| selection; res = 'list' }
@@ -235,6 +232,4 @@ if res == 'thunderbird'
 	thunderbird = system( "cd ~/ && wget https://dl1.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYwMjAxNzA3NCwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiI4MzRiNzdlNGViNmM3MTBhZmViMTk3M2M3MDU5MzRkMjZhZGM0YmE0MjdjYzY2YjcyYjU1YzZkODA3NzgwMzk3YmIzMDE3NmE0MGY4NzY3NTc2ODNjMGI4NWRiMDNmMWYxNzBjM2MzN2VhY2U3Nzk1MGMxNzI4ODY1ODlmNDRjZCIsInQiOjE2NDgyMjU4MTQsInN0ZnAiOiJiZWMwODFlNTQxYmUwN2Q3MDA2MjUzNjUxMTQ3MjVhYiIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.Uyi_NA3tmdeJBmBIL_BvdL2Hlvt7ZOpdV4gsFt31suo/Thunderbird-78.3_20200925001233.AppImage" )
 	puts 'app  installed with sucess in your home'.colorize(:red)
 end
-	self.go
-end
-end
+

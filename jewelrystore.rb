@@ -1,6 +1,16 @@
+require 'cli/ui'
 require 'colorize'
-puts 'welcome to jewelry store to list all apps type list or type bye to exit'.colorize(:red)
-res = gets.chomp
+require 'cli/ui'
+class Jewstore
+def self.go
+res = ''
+CLI::UI::Prompt.ask('JewelryStore v1.5.4') do |handler|
+  handler.option('list')  { |selection| selection; res = 'list' }
+      handler.option('install')     { |selection| selection; res =
+gets.chomp }
+		            end
+
+
 if res == 'list'
     puts 'all apps available are:'.colorize(:red)
     puts 'inkscape'.colorize(:grey)
@@ -224,4 +234,6 @@ if res == 'thunderbird'
 	puts 'Installing Thunderbird AppImage'.colorize(:red)
 	thunderbird = system( "cd ~/ && wget https://dl1.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYwMjAxNzA3NCwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiI4MzRiNzdlNGViNmM3MTBhZmViMTk3M2M3MDU5MzRkMjZhZGM0YmE0MjdjYzY2YjcyYjU1YzZkODA3NzgwMzk3YmIzMDE3NmE0MGY4NzY3NTc2ODNjMGI4NWRiMDNmMWYxNzBjM2MzN2VhY2U3Nzk1MGMxNzI4ODY1ODlmNDRjZCIsInQiOjE2NDgyMjU4MTQsInN0ZnAiOiJiZWMwODFlNTQxYmUwN2Q3MDA2MjUzNjUxMTQ3MjVhYiIsInN0aXAiOiIyMDEuMjE2Ljc0LjIyMyJ9.Uyi_NA3tmdeJBmBIL_BvdL2Hlvt7ZOpdV4gsFt31suo/Thunderbird-78.3_20200925001233.AppImage" )
 	puts 'app  installed with sucess in your home'.colorize(:red)
+end
+end
 end
